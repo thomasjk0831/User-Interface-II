@@ -1,1 +1,141 @@
 /* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+*{
+    
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    font-family: 'Share Tech Mono', monospace;
+}
+
+header{
+    display:flex;
+    flex-direction: column;
+    background: #E0D9E1;
+    
+    padding:1%;
+   
+
+}
+
+header h1{
+    margin-left: 8%;
+    
+    color: #324554  
+}
+
+header nav{
+    display: flex;
+    height: 30px;
+    margin-top: 10px;
+    margin-left:6%
+    
+    
+}
+
+header a{
+    display: flex;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+header .homeLink{
+    background: #EDCF75;
+    
+}
+
+header .aboutLink{
+    background: #45C8E4
+}
+
+header .projectLink{
+    background:white;
+    
+}
+
+header .contactLink{
+    background: #E46C54
+}
+.container{
+    display:flex;
+    width:80%;
+    margin-left:8%
+    
+    
+}
+
+.container .containerAboutMyself{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 6%;
+
+}
+
+.containerAboutMyself a{
+    background: black;
+    color: white;
+}
+
+.containerAboutMyself p{
+    margin-top: 5px;
+    background:#458D8A;
+    color: white;
+}
+
+.container .containerAboutMyself a{
+    text-decoration:none;
+    text-align: center;
+    width: 15%;
+}
+    
+hr{
+    margin-top: 40px;
+}
+
+
+.container2{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 40px;
+   
+
+}
+
+.container2 div{
+    width: 190px;
+    
+}
+
+footer{
+    margin-top: 40px;
+    display:flex;
+    flex-direction: column;
+    
+    
+    padding:1%;
+}
+
+footer div{
+    text-align: center;
+    width: 90%;
+}
+
+footer nav a{
+    background: #324554;
+    color: white;
+    text-decoration: none;
+}
+
+
