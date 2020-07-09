@@ -34,3 +34,9 @@ header nav a{
     justify-content: center;
     align-items: center;
 }
+
+.container{
+    display:flex;
+    width:90%;
+    justify-content: space-evenly;
+}
