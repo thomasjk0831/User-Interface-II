@@ -23,7 +23,7 @@ header{
 }
 
 header h1{
-    margin-left: 1%;
+    margin-left: 8%;
     
     color: #324554  
 }
@@ -32,7 +32,7 @@ header nav{
     display: flex;
     height: 30px;
     margin-top: 10px;
-    margin-left:20px;
+    margin-left:6%
     
     
 }
@@ -65,7 +65,7 @@ header .contactLink{
 .container{
     display:flex;
     width:80%;
-    margin-left:3%
+    margin-left:8%
     
     
 }
@@ -76,17 +76,18 @@ header .contactLink{
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    margin-left: 3%;
+    margin-left: 6%;
 
 }
 
 .containerAboutMyself a{
-    background:#A57149;
+    background: black;
     color: white;
 }
 
 .containerAboutMyself p{
-    background: black;
+    margin-top: 5px;
+    background:#458D8A;
     color: white;
 }
 
