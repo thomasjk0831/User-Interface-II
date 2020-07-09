@@ -39,9 +39,28 @@ header nav a{
 
 .container{
     display:flex;
-    width:90%;
-    justify-content: space-evenly;
+    width:80%;
+    
+    
 }
+
+.container .containerAboutMyself{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3%;
+
+}
+
+.container .containerAboutMyself a{
+    width: 17%;
+    margin-left: 3%;
+}
+    
+    
+
 
 .container2{
     width: 90%;
@@ -64,7 +83,10 @@ footer{
     
     
     padding:1%;
-   
+}
 
+footer div{
+    text-align: center;
+    width: 90%;
 }
 
