@@ -239,4 +239,8 @@ footer nav a{
         border: 1px solid blue;
         
     }
+
+    footer div{
+        margin-left: 5%;
+    }
 }
