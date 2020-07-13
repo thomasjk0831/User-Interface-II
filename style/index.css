@@ -183,25 +183,22 @@ footer nav a{
         text-decoration: none;
     }
 
-    section{
-        border: 1px solid red;
-        
-    }
+   
 
     .container{
-        border: 1px solid red;
+        
         flex-direction: column;
         margin: 0 auto;
     }
 
     .container img{
-        border: 1px solid red;
+       
         width: 100%;
         height: 500px;
     }
 
     .containerAboutMyself{
-        border: 1px solid red;
+        
         margin-right: 6%;
 
     }
@@ -215,7 +212,7 @@ footer nav a{
     }
 
     .box{
-        border:1px solid blue;
+        
         flex-grow: 2;
     }
    
@@ -236,7 +233,7 @@ footer nav a{
 
     .container2{
         margin: 0 auto;
-        border: 1px solid blue;
+        
         
     }
 
