@@ -1,15 +1,24 @@
 /* Add CSS styling here */
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
+
+
 *{
     
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     
+}
+
+html{
+    font-size: 62.5%;
 }
 
 body{
     font-family: 'Share Tech Mono', monospace;
+    border: 1px solid grey; 
+    font-size: 2rem;
 }
 
 header{
@@ -22,9 +31,10 @@ header{
 
 }
 
+
 header h1{
     margin-left: 8%;
-    
+    font-size: 4rem;
     color: #324554  
 }
 
@@ -32,17 +42,19 @@ header nav{
     display: flex;
     height: 30px;
     margin-top: 10px;
-    margin-left:6%
+    margin-left:6%;
+    font-size: 2rem;
     
     
 }
 
 header a{
     display: flex;
-    width: 10%;
+    width: 15%;
     justify-content: center;
     align-items: center;
     color: black;
+    text-decoration: none;
 }
 
 header .homeLink{
@@ -73,7 +85,7 @@ header .contactLink{
 .container .containerAboutMyself{
     
     display: flex;
-    flex-wrap: wrap;
+    
     flex-direction: column;
     justify-content: center;
     margin-left: 6%;
@@ -81,8 +93,9 @@ header .contactLink{
 }
 
 .containerAboutMyself a{
-    background: black;
-    color: white;
+    
+    
+    color:black;
 }
 
 .containerAboutMyself p{
@@ -91,11 +104,7 @@ header .contactLink{
     color: white;
 }
 
-.container .containerAboutMyself a{
-    text-decoration:none;
-    text-align: center;
-    width: 15%;
-}
+
     
 hr{
     margin-top: 40px;
@@ -107,8 +116,10 @@ hr{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    
     flex-wrap: wrap;
     margin-top: 40px;
+    margin-left: 4%;
    
 
 }
@@ -139,3 +150,94 @@ footer nav a{
 }
 
 
+@media(max-width: 800px){
+    header{
+        background: gray;
+        align-items: center;
+        height: 210px;
+    }
+
+    header h1{
+        margin-left: 0%;
+        font-size: 5rem;
+        
+    }
+
+    header nav{
+        
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        font-size: 3rem;
+        width: 40%;
+        margin-right: 6%;
+       
+        
+    }
+    header a{
+        display: flex;
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        text-decoration: none;
+    }
+
+   
+
+    .container{
+        
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .container img{
+       
+        width: 100%;
+        height: 500px;
+    }
+
+    .containerAboutMyself{
+        
+        margin-right: 6%;
+
+    }
+    
+    .containerAboutMyself h2{
+        margin: 0 auto;
+    }
+
+    .containerAboutMyself a{
+        margin: 0 auto;
+    }
+
+    .box{
+        
+        flex-grow: 2;
+    }
+   
+   
+
+
+}
+
+@media(max-width: 500px){
+    header{
+        background: white;
+        
+    }
+
+    .container img{
+        height: 300px;
+    }
+
+    .container2{
+        margin: 0 auto;
+        
+        
+    }
+
+    footer div{
+        margin-left: 5%;
+    }
+}
